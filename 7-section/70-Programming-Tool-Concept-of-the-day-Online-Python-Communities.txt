@@ -1,0 +1,42 @@
+Hé, dans l'outil de programmation d'aujourd'hui, je veux parler des forums communautaires, les forums communautaires Python.
+
+Il s'agit de forums que je vous conseille de visiter régulièrement afin que vous puissiez rester en contact avec Python en communiquant
+
+avec d'autres personnes.
+
+Poser des questions.
+
+Des opinions, des idées et aussi des nouvelles sur Python et des choses intéressantes.
+
+1. reddit.com
+
+Vous pouvez donc aller sur Reddit dot com et dans la boîte de recherche, vous pouvez chercher Python.
+
+a) https://www.reddit.com/r/Python/
+
+
+exemple:
+https://www.reddit.com/r/Python/comments/usy27c/envelope_send_email_sign_encrypt_attach_files/
+github code:
+https://www.reddit.com/r/Python/comments/usy27c/envelope_send_email_sign_encrypt_attach_files/
+
+
+b) Learnpython
+https://www.reddit.com/r/learnpython/
+
+
+2) discord.com
+
+Ce tribunal est donc une application que vous pouvez télécharger.
+Et il est basé sur les salles de chat, donc vous pouvez discuter avec d'autres personnes en temps réel et dans ces ressources de conférence.
+Veuillez donc vous rendre dans les ressources et vous y trouverez un lien qui vous mènera au salon de discussion de ce cours
+particulier.
+
+
+3) stackoverflow.com
+
+Stack Overflow est plus axé sur les questions techniques, donc vous obtenez une erreur.
+
+Vous créez une question technique très spécifique concernant l'erreur.
+
+StackOverflow n'accepte pas les questions qui demandent des opinions.

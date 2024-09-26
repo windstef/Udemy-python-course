@@ -1,0 +1,9 @@
+La prochaine chose que je veux que vous essayiez est que je veux que vous supprimiez cet argument, que vous le supprimiez, et que vous ne gardiez que
+
+le premier argument.
+
+Et exécutez le code.
+
+Il n'y a donc aucune erreur.
+
+Et bien sûr, vous pouvez imprimer le contenu du fichier et vous obtenez le contenu avec succès.

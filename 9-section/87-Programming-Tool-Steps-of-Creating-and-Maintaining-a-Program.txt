@@ -1,0 +1,44 @@
+Ce sont donc les étapes que nous suivrons encore et encore lors de la création d'un programme Python.
+
+Vous apprendrez donc la langue dans le cours, mais vous apprendrez en même temps.
+
+La procédure de création d'un nouveau programme.
+
+Donc tout commence par un produit minimum viable.
+
+
+- MVP: Minimum Viable Product
+Il est donc préférable de commencer simplement.
+Et lancez cette version de votre programme.
+
+- Ce sont les trois principales -
+
+--  Features
+Ensuite, vous ajoutez des fonctionnalités au programme.
+
+
+-- Fixing Bugs
+Nous pourrions alors recevoir un retour d'information sur les problèmes du programme.
+Nous voulons donc revenir au programme, corriger ces boîtes et les libérer.
+Une version actualisée du programme avec la boîte corrigée.
+
+
+-- Code Optimization
+Puis, de temps en temps, nous voulons revenir à notre code et l'optimiser.
+
+
+
+-------------------------------------------
+
+❓ FAQ
+Q1: When should I use read() and when readlines()?
+
+A: If you want to get all the text as one single string, use read(). If you want to get separate strings for each line, use readlines().
+
+Q2: How is the with-context manager actually able to close the file when we are not including the close() method?
+
+A: The close() method is called implicitly even though we don't call it explicitly. The Python interpreter will call the method when it sees that we have written a with-context manager.
+
+--------------------------------------------
+
+Cheat-Sheet-Day-8.png

@@ -1,0 +1,37 @@
+78. Programming Tool
+Concept of the Day:
+Usages of Python in Real Life
+
+La documentation de Flask et Django pour vous permettre d'approfondir vos connaissances.
+Donc cet objectif, ce cours, vous préparera.
+Être un bon programmeur dans les concepts fondamentaux de Python, mais aussi dans des domaines tels que le développement web.
+
+
+(A) Développement Web
+
+Voilà donc les langages que vous devez connaître pour le développement web.
+Donc Python, HTML, CSS, et JavaScript.
+
+
+https://www.djangoproject.com
+
+https://flask.palletsprojects.com/en/3.0.x/
+
+https://pythonhow.com
+
+
+(B) Data Science, Machine Learning et AI qui est l'intelligence artificielle.
+
+
+(C) Automations
+
+(D) General Programming
+
+(E) Web Scraping
+
+(F) Other
+(i) Data Analysis
+(ii) Visualization
+(iii) Desktop Apps
+
+

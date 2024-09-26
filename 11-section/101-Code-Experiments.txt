@@ -1,0 +1,46 @@
+# 101
+# Code Experiments
+
+# There are two major types of errors in Python.
+
+# You have syntax errors and then you have exceptions.
+
+# So first, the Interpreter checks your code for syntax errors.
+
+# So a logical error (exception), for example, would be something like, if we try to remove an item using
+# an index which does not exist in the list,
+
+# >> console:
+# a = ['a', 'b']
+# a.pop(3)
+# Traceback (most recent call last):
+#   File "/snap/pycharm-community/405/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+#     coro = func()
+#            ^^^^^^
+#   File "<input>", line 1, in <module>
+# IndexError: pop index out of range
+
+
+# So once the syntax is correct,
+
+# the grammar checker gives the green light,
+
+# then the Interpreter components
+
+# which understands the language,
+
+# goes on and translates the instructions
+
+# into machine language, and then your processor processes
+
+# the information and it gives the output
+
+# on your computer screen.
+
+
+
+# 104
+
+Online IDE
+https://replit.com
+
