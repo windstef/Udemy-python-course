@@ -1,6 +1,2 @@
 montrer
-ajouter
-lire
-ecrire
-nettoyer
 marcher

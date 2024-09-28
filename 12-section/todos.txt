@@ -1,3 +1,4 @@
-nettoyer
-marcher
+nettoyer la chambre
 ecrire
+ecouter
+regarder

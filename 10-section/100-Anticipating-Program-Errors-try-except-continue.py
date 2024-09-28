@@ -9,7 +9,7 @@
 
 # Type add, show, edit, complete or exit: edit add a new
 # Traceback (most recent call last):
-#   File "/home/stefkour/PycharmProjects/app1/pythonProject/11-section/99-Fixing-Two-Bugs-in-the-Program-bugs.py", line 47, in <module>
+#   File "/home/stefkour/PycharmProjects/app1/pythonProject/10-section/99-Fixing-Two-Bugs-in-the-Program-bugs.py", line 47, in <module>
 #     number = int(user_action[5:])
 #              ^^^^^^^^^^^^^^^^^^^^
 # ValueError: invalid literal for int() with base 10: 'add a new'
@@ -22,7 +22,7 @@
 
 # Type add, show, edit, complete or exit: complete 23
 # Traceback (most recent call last):
-#   File "/home/stefkour/PycharmProjects/app1/pythonProject/11-section/100-Anticipating-Program-Errors-try-except-continue.py", line 85, in <module>
+#   File "/home/stefkour/PycharmProjects/app1/pythonProject/10-section/100-Anticipating-Program-Errors-try-except-continue.py", line 85, in <module>
 #     todo_to_remove = todos[index].strip('\n')
 #                      ~~~~~^^^^^^^
 # IndexError: list index out of range

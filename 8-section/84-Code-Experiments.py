@@ -31,7 +31,7 @@
 #     print("Bonsoir")
 # file.read()
 
-#   File "/home/stefkour/PycharmProjects/app1/pythonProject/9-section/84-Code-Experiments.py", line 32, in <module>
+#   File "/home/stefkour/PycharmProjects/app1/pythonProject/8-section/84-Code-Experiments.py", line 32, in <module>
 #     file.read()
 # ValueError: I/O operation on closed file.
 

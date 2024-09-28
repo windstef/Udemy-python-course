@@ -1,2 +1,14 @@
 montrer
 marcher
+jouer
+nouvelle tache a faire
+test show
+regarder
+apprendre
+edit
+nouvelle tache a faire avec 'new'
+
+
+
+
+the door
