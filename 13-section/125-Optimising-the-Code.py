@@ -1,7 +1,9 @@
-# 116
+# 125
 # Optimising the code
+# section: App 1 - Build a Todo List App | #default-arguments
+
 # follow the:
-# 108: Avoiding Repetitive Code #custom-functions
+# 116: Avoiding Repetitive Code #custom-functions
 
 # Objective:
 # You will learn one of the most important elements of Python
@@ -27,13 +29,21 @@
 #############
 
 # input: filepath (parameter)
-def get_todos(filepath):
-    # context manager
+# with default argument/parameter
+def get_todos(filepath="todos.txt"):
     with open(filepath, 'r') as file_local:
         # yellow underlined todos: Shadows name 'todos' from outer scope. And it's not a good idea to have this variable with the same name as in function.
         # todos = file.readlines()
         todos_local = file_local.readlines()
     return todos_local
+
+# no return anything, except of None. Behaves as procedure.
+# with default argument/parameter
+# Hint: non-default parameter must not follows default parameters. No-default parameters come first!
+def write_todos(todos_arg, filepath="todos.txt"):
+    with open(filepath, 'w') as file:
+        file.writelines(todos_arg)
+
 
 
 while True:
@@ -44,15 +54,15 @@ while True:
     if user_action.startswith('add'):
         todo = user_action[4:] + "\n"
 
-        todos = get_todos("todos.txt")
+        todos = get_todos()
 
         todos.append(todo)
 
-        with open('todos.txt', 'w') as file:
-            file.writelines(todos)
+        write_todos(todos)
+        # write_todos(filepath="todos.txt", todos_arg=todos)    # optional
 
     elif user_action.startswith('show'):
-        todos = get_todos("todos.txt")
+        todos = get_todos()
 
         for index, item in enumerate(todos):
         # for index, item in enumerate(new_todos):
@@ -66,13 +76,13 @@ while True:
             number = number - 1     # list indexing starts from 0
 
             # todos = get_todos(filepath="todos.txt")   # optional
-            todos = get_todos("todos.txt")
+            todos = get_todos()
 
             new_todo = input("Enter new todo: ")
             todos[number] = new_todo + '\n'
 
-            with open('todos.txt', 'w') as file:
-                todos = file.writelines(todos)
+            write_todos(todos)
+
         except ValueError:
             print("Your command is not valid. Try again!")
             continue
@@ -81,15 +91,14 @@ while True:
         try:
             number = int(user_action[9:])
 
-            todos = get_todos("todos.txt")
+            todos = get_todos()
             # print(todos)
             index = number - 1
             todo_to_remove = todos[index].strip('\n')
 
             todos.pop(index)
 
-            with open('todos.txt', 'w') as file:
-                todos = file.writelines(todos)
+            write_todos(todos)
 
             message = f"Todo {todo_to_remove} was removed from the list."
             print(message)

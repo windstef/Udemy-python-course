@@ -1,40 +1,57 @@
-# 116
-# Optimising the code
+# 126
+# Documenting the Code
+
 # follow the:
-# 108: Avoiding Repetitive Code #custom-functions
+
+# 125
+# Optimising the code
+# section: App 1 - Build a Todo List App | #default-arguments
+
+# 116: Avoiding Repetitive Code #custom-functions
 
 # Objective:
-# You will learn one of the most important elements of Python
-# and that is custom functions.
-# So let's look at our code and see how custom functions will improve our program.
-# Because currently, we have a problem with the program,
-# and the problem is redundancy.
+# docstrings
 
-##############
-# Built-in functions
-#ex. input(), open()
-# Go to Implementation
+# example:
+# python console
+# >>> help(len)
+# Help on built-in function len in module builtins:
+# len(obj, /)
+#     Return the number of items in a container.
 
+# the last is the docstring
 
-# And then down here, you have pass.
-# So you don't actually see the code here,
-
-# And that is because all these functions, so open and input, these were written in C language.
-
-# So, how can we change this function definition
-# so that the gets to those function, also gets an argument
 
 #############
 
+
+
 # input: filepath (parameter)
-def get_todos(filepath):
-    # context manager
+# with default argument/parameter
+def get_todos(filepath="todos.txt"):
+    """ Read a text file and return the list of
+    to-do items.
+    """
     with open(filepath, 'r') as file_local:
         # yellow underlined todos: Shadows name 'todos' from outer scope. And it's not a good idea to have this variable with the same name as in function.
         # todos = file.readlines()
         todos_local = file_local.readlines()
     return todos_local
 
+# docstring
+# print(help(get_todos))
+
+
+# no return anything, except of None. Behaves as procedure.
+# with default argument/parameter
+# Hint: non-default parameter must not follows default parameters
+def write_todos(todos_arg, filepath="todos.txt"):
+    """ Write the to-do items list in the text file. """
+    with open(filepath, 'w') as file:
+        file.writelines(todos_arg)
+
+# docstring
+# print(help(write_todos))
 
 while True:
     user_action = input('Type add, show, edit, complete or exit: ')    # Ajouter, Afficher or Quitter
@@ -44,15 +61,15 @@ while True:
     if user_action.startswith('add'):
         todo = user_action[4:] + "\n"
 
-        todos = get_todos("todos.txt")
+        todos = get_todos()
 
         todos.append(todo)
 
-        with open('todos.txt', 'w') as file:
-            file.writelines(todos)
+        write_todos(todos)
+        # write_todos(filepath="todos.txt", todos_arg=todos)    # optional
 
     elif user_action.startswith('show'):
-        todos = get_todos("todos.txt")
+        todos = get_todos()
 
         for index, item in enumerate(todos):
         # for index, item in enumerate(new_todos):
@@ -66,13 +83,13 @@ while True:
             number = number - 1     # list indexing starts from 0
 
             # todos = get_todos(filepath="todos.txt")   # optional
-            todos = get_todos("todos.txt")
+            todos = get_todos()
 
             new_todo = input("Enter new todo: ")
             todos[number] = new_todo + '\n'
 
-            with open('todos.txt', 'w') as file:
-                todos = file.writelines(todos)
+            write_todos(todos)
+
         except ValueError:
             print("Your command is not valid. Try again!")
             continue
@@ -81,15 +98,14 @@ while True:
         try:
             number = int(user_action[9:])
 
-            todos = get_todos("todos.txt")
+            todos = get_todos()
             # print(todos)
             index = number - 1
             todo_to_remove = todos[index].strip('\n')
 
             todos.pop(index)
 
-            with open('todos.txt', 'w') as file:
-                todos = file.writelines(todos)
+            write_todos(todos)
 
             message = f"Todo {todo_to_remove} was removed from the list."
             print(message)
