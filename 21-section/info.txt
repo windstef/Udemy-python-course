@@ -1,0 +1,7 @@
+New project created under the dir/name
+app2-portfolio
+path:
+/home/stefkour/PycharmProjects/app2-portfolio
+
+Guidelines from the:
+206. Setting up the PyCharm Project and Git
