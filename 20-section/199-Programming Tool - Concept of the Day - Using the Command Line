@@ -1,0 +1,36 @@
+199
+Programming Tool - Concept of the Day - Using the Command Line
+
+Use the git
+
+for Windows: git bash
+
+for Linux/Mac: terminal
+
+- Unix commands:
+
+pwd
+touch file1.txt
+touch file2.txt
+touch file3.py
+ls
+ls -lt
+ls *.txt
+
+mkdir data
+ls data
+
+mv data
+mv ../file* .
+cd ..
+cd -
+rm file1.txt
+mkdir data1 && cd data1
+cd -
+rm -r data1
+mv file3.txt file4.txt
+cp file3.py ../file3.py
+
+touch file50.py
+nano file50.py
+cat file50.py
