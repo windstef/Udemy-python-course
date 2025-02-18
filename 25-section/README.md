@@ -1,10 +1,8 @@
 # Section 25: Day 25: App 4 - Build an Excel to PDF Invoice Generator | Part 1
-
 https://github.com/windstef/udemy-python-app4-excel-to-pdf-invoice-generator
 
 ## 237. Student Project: From Text Files to PDF
-https://github.com/windstef/udemy-python-app4-text-file-to-pdf
-
+https://github.com/windstef/udemy-python-app4.1-from-text-file-to-pdf
 
 ## 239. Programming Tool/Concept of the Day: Zen of Python
 
