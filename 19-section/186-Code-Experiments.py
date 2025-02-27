@@ -38,7 +38,7 @@
 # 1st push the project to github
 # deploy via streamlit free cloud service
 # sign-in via github account
-# url: https://windstef-my-todo-web-app-web-ldniff.streamlit.app/
+# url: https://app1-1-todo-list.streamlit.app/
 
 
 ## Code Experiments (4) ##
@@ -101,7 +101,7 @@ from tabnanny import check
 # 1st push the project to github
 # deploy via streamlit free cloud service
 # sign-in via github account
-# url: https://windstef-my-todo-web-app-web-ldniff.streamlit.app/
+# url: https://app1-1-todo-list.streamlit.app/
 
 #######################################
 
